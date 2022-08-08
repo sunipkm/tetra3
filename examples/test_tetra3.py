@@ -3,8 +3,6 @@ This example loads the tetra3 default database and solves for every image in the
 
 Note: Requires PIL (pip install Pillow)
 """
-import sys
-sys.path.append('..')
 from tetra3 import Tetra3
 from PIL import Image
 from pathlib import Path

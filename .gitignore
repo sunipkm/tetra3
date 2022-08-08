@@ -13,12 +13,13 @@
 /dist/*
 *egg-info*
 
-# Settings
-/setup.cfg
-
 # Star catalogue
 /BSC5*
 
 # Databases except the default
 *.npz
 !/default_database.npz
+
+# Other files
+**/.DS_Store
+**/.vscode
